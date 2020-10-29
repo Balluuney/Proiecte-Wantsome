@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trial</title> 
+</head>
+<body>
+<h2>Pizza Order</h2>
+<br>
+<form>
+<label for="yourName">Your Name</label>
+    <input type="text" id="yourName" name="yourName:" minlength="3" maxlength="10" placeholder="yourName" required value="Iulian">
+    <br><br>
+<label for="yourEmail">Your Email</label>
+    <input type="email" id="yourName" name="yourEmail" placeholder="Your Email" required>
+    <br><br>
+<label for="Topping:">Topping:</label>
+    <input type="radio" name="Choices" value="Supreme:" checked>Supreme
+    <input type="radio" name="Choices" value="Vegetarian:">Vegetarian
+    <input type="radio" name="Choices" value="Hawaian:">Hawaian
+    <br>
+    <br>
+<label for="Sauce">Sauce</label>
+<select name="Sauce" id="Sauce">
+    <option value="Tomato" aria-checked="true">Tomato</option>
+    <option value="Mayo">Mayo</option>
+    <option value="Spicy_Sauce">Spicy Sauce</option>
+    <option value="Ay_Ay_Ay_Sauce">Ay Ay Ay Sauce</option>
+</select>
+<br><br>
+    <label for="Extras:">Extras:</label>
+        <input type="checkbox" name="Choices2" value="Cheese">Cheese
+        <input type="checkbox" name="Choices2" value="Onions">Onions
+        <input type="checkbox" name="Choices2" value="Olives">Olives
+<br><br>
+ <label for="Quantity">Quantity</label>
+    <input type="number" id="Quantity" name="Quantity" min="1" max="7" value="1">
+<br><br>
+<label for="deliveryInstructions">Delivery Instructions</label>
+<br><br>
+    <textarea name="deliveryInstructions" id="deliveryInstructions" rows="10" cols="60"></textarea>
+<br><br>
+<label for="Delivery">Delivery Date</label>
+    <input type="date" id="Delivery">
+<br><br>
+<label for="reset"></label>
+    <input type="reset" id="reset" name="Reset">
+<label for="submit"></label>
+    <input type="submit"></button>
+</form>
+</body>
+</html>
