@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <h3>Application Form</h3>
+    <h1 style="text-align: center;"> <strong>Application Form</strong></h1>
     <br>
     <form>
         <label for="surname"><strong>Surname</strong></label>
@@ -14,15 +14,41 @@
         <br><br>
         <label for="forname"><strong>Forname</strong></label>
         <input type="text" id="forname" name="forname" placeholder="Forname" required>
-    <br><br>
+        <br><br>
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" id="email" name="email" placeholder="Email" required value="example@yahoo.com">
+        <br><br>
         <label for="sex"><strong>Sex</strong></label>
         <select name="sex" id="sex">
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="batman">Batman</option>
-        </select>    
-    <br><br>
-        <label for="age"><strong></strong></label>
+        </select>
+        <br><br>
+        <label for="age"><strong>Age</strong></label>
+        <input type="number" id="age" name="age" min="18" max="35">
+        <br><br>
+        <label for="country"><strong>Country</strong></label>
+        <input type="text" id="country" name="country" placeholder="country" value="Romania">
+        <br><br>
+        <label for="city"><strong>City</strong></label>
+        <input type="text" id="city" name="city" placeholder="City" value="Iasi">
+        <br><br>
+        <label for="address"><strong>Address</strong></label>
+        <br><br>
+        <textarea id="address" name="address" rows="4" cols="40" placeholder="Address"></textarea>
+        <br>,<br>
+        <label for="code"><strong>Postal Code</strong></label>
+        <input type="text" id="code" name="code" placeholder="Postal Code">
+        <br><br>
+        <label for="mesage"><Strong>Mesage</Strong></label>
+        <br><br>
+        <textarea id="mesage" name="mesage" rows="7" cols="40" placeholder="Write your message"></textarea>
+        <br><br>
+        <input type="file">
+        <br><br>
+        <input type="reset">
+        <input type="submit">
     </form>
 </body>
 

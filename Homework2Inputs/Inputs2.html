@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inputs2</title>
+</head>
+
+<body>
+    <h1>
+        <srtong>Travel Reservation form</srtong>
+    </h1>
+    <h3>*denotes mandatory</h3>
+    <form>
+        <label for="name">Full name*:</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="FirstName LastName" required>
+        <br><br>
+        <label for="email">Email address*:</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="EMAIL_ADDRESS" required>
+        <br><br>
+        <label for="package">Select Tour Package*:</label>
+        <br>
+        <select id="package" name="package" required>
+            <option value="Full">Full Package</option>
+            <option value="Medium">Medium Package</option>
+            <option value="Cheap">Cheap Package</option>
+        </select>
+        <br><br>
+        <label for="arrival">Arrival Date*:</label>
+        <br>
+        <input type="date" id="arrival" name="arrival" required>
+        <br>
+        <label for="persons">Number of persons*:</label>
+        <br>
+        <input type="number" id="persons" name="persons" required>
+        <br><br>
+        <label for="choices">What would you like to avail?*</label>
+        <br>
+        <input type="checkbox" id="choices" name="choices" required>Boarding
+        <input type="checkbox" id="choices" name="choices">Fooding
+        <input type="checkbox" id="choices" name="choices">Sight seeing
+        <br><br>
+        <label for="discount">Discount Cupon code</label>
+        <br>
+        <input type="text" id="discount" name="discount" placeholder="UNKNOWN_TYPE">
+        <br><br>
+        <label for="terms">Terms and conditions*</label>
+        <br>
+        <input type="radio" id="terms" name="terms" required>I Agree
+        <input type="radio" id="terms" name="terms">I Disagree
+        <br><br>
+       <input type="submit" value="Complete Reservation">
+    </form>
+</body>
+
+</html>
