@@ -1,0 +1,47 @@
+body {
+    font-size: 25px;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(197, 29, 197);
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    padding: 25px;
+    background-color: orange;
+    color: white;
+}
+
+.leftside {
+    padding: 25px;
+    background-color: rgb(57, 125, 228);
+    color: white;
+    width: 200px;
+    height: 72%;
+    flex-shrink: 0;
+}
+
+.main {
+    background-color: lightgray;
+    padding: 25px;
+    flex: 1;
+}
+
+.rightside {
+    background-color: rgb(50, 207, 50);
+    color: white;
+    padding: 25px;
+    width: 200px;
+    flex-shrink: 0;
+}
