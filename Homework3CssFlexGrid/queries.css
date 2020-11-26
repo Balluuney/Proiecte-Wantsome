@@ -1,0 +1,109 @@
+body {
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+nav img {
+    height: 400px;
+    width: 600px;
+}
+
+.image1 {
+    position: relative;
+    margin: 20px;
+}
+
+.img:hover {opacity: 0.5;}
+
+.tsp1 {
+    position: absolute;
+    background-color: rgb(238, 253, 150);
+    height: 70px;
+    width: 600px;
+    top: 330px;
+    opacity: 0.25;
+}
+
+.text1 {
+    position: absolute;
+    font-size: 50px;
+    color: #8360c3;
+    font-weight: bold;
+    top: 290px;
+    left: 20px;
+}
+
+.image2 {
+    position: relative;
+    margin: 20px;
+}
+
+.tsp2 {
+    position: absolute;
+    background-color: rgb(238, 253, 150);
+    height: 70px;
+    width: 600px;
+    top: 330px;
+    opacity: 0.25;
+}
+
+.text2 {
+    position: absolute;
+    font-size: 50px;
+    color: #8360c3;
+    font-weight: bold;
+    top: 290px;
+    left: 20px;
+}
+
+.image3 {
+    position: relative;
+    margin: 20px;
+}
+
+.tsp3 {
+    position: absolute;
+    background-color: rgb(238, 253, 150);
+    height: 70px;
+    width: 600px;
+    top: 330px;
+    opacity: 0.25;
+}
+
+.text3 {
+    position: absolute;
+    font-size: 50px;
+    color: #8360c3;
+    font-weight: bold;
+    top: 290px;
+    left: 20px;
+}
+
+.image4 {
+    position: relative;
+    margin: 20px;
+}
+
+.tsp4 {
+    position: absolute;
+    background-color: rgb(238, 253, 150);
+    height: 70px;
+    width: 600px;
+    top: 330px;
+    opacity: 0.25;
+}
+
+.text4 {
+    position: absolute;
+    font-size: 50px;
+    color: #8360c3;
+    font-weight: bold;
+    top: 290px;
+    left: 20px;
+}

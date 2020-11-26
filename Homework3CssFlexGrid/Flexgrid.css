@@ -1,0 +1,56 @@
+body {
+    background-color: #7ab8f7;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header {
+    background-color: lightgreen;
+    height: 70px;
+    width: 100%;
+}
+
+footer {
+    background-color: lightgreen;
+    height: 70px;
+    width: 100%;
+}
+
+main {
+    background-color: lightgreen;
+    background: rgb(0, 255, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.image1 {
+    background-image: url(https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-size: auto;
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    margin-top: 200px;
+    
+}
+
+.image2 {
+    background-image: url(https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: auto;
+    margin-top: 200px;
+}
+
+.image3 {
+    background-image: url(https://www.gettyimages.com/gi-resources/images/500px/983801190.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: auto;
+    margin-top: 200px;
+}
