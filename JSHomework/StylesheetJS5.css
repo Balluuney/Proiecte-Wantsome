@@ -1,0 +1,79 @@
+body {
+    height: 100%;
+    width: 400px;
+    margin: 0 auto;
+    border: solid 3px grey;
+    padding: 5px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 10px;
+    color: #5b5b5b;
+    font-weight: bold;
+    padding: 0px;
+}
+
+input {
+    width: 350px;
+    height: 25px;
+    background-color: #f2f2f2;
+    padding: 0px;
+    margin: 0px;
+}
+
+#choice {
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+   
+}
+
+#choice-text { font-size: 10px;
+    color: #5b5b5b;
+    font-weight: bold;
+}
+
+#next {
+    width: 360px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#error_message {
+    background-color: #ffcccc;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5 ease;    
+}
+
+#email_error {
+    background-color: #ffcccc;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5 ease;
+}
+
+#name_error {
+    background-color: #ffcccc;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5 ease;
+}
+
+#lastname_error {
+    background-color: #ffcccc;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5 ease;
+}
+
+#phone_error {
+    background-color: #ffcccc;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5 ease;
+}

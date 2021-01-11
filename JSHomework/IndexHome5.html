@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="StylesheetJS5.css" />
+  </header>
+  <body>
+    <h1>Get you own Site 42 Sites accounts in seconds</h1>
+    <div id="error_message"></div>
+    <form id="myform" onsubmit="return errorFunction()">
+      <p>USERNAME:</p>
+      <input type="text" id="username" />
+      <p>(Must be at least 4 characters, letters and numbers only)</p>
+      <div id="email_error"></div>
+      <p>EMAIL ADDRESS</p>
+      <input type="text" id="email" />
+      <p>
+        We send your registration email to this address. (Double check your
+        email address before continuing)
+      </p>
+      <div id="name_error"></div>
+      <p>FIRST NAME:</p>
+      <input type="text" id="first_name" />
+      <p>(Must be input.)</p>
+      <div id="lastname_error"></div>
+      <p>LAST NAME:</p>
+      <input type="text" id="last_name" />
+      <p>(MUST BE INPUT.)</p>
+      <p>NICKNAME:</p>
+      <input type="text" id="nickname" />
+      <div id="phone_error"></div>
+      <p>PHONE:</p>
+      <input type="text" id="phone_number" />
+      <p>Must be at least 10 characters, numbers only</p>
+      <input type="radio" id="choice" name="choice" />
+      <label for="choice" id="choice-text">GIMME A SITE!</label>
+      <br />
+      <input type="radio" id="choice" name="choice" />
+      <label for="choice" id="choice-text">JUST A USERNAME, PLEASE</label>
+      <br />
+      <br />
+      <input type="submit" id="next" value="NEXT" />
+    </form>
+  </body>
+  <script src="JSHom5.js"></script>
+</html>
